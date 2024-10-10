@@ -6,6 +6,7 @@ export default defineConfig({
   description: 'ポケモンカードを盛り上げよう',
   lastUpdated: true,
   lang: 'ja',
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
