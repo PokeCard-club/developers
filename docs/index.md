@@ -7,7 +7,7 @@ hero:
   text: "ポケカを盛り上げよう"
   tagline: Connect with Developers
   image:
-    src: /assets/logo-square.svg
+    src: /images/logo-square.svg
     alt: PokeCard.club Developers
   actions:
     - theme: brand
@@ -21,7 +21,7 @@ features:
   - title: デッキAPI
     details: あなたのサービスに簡単にデッキを取得できます
     icon: {
-      src: /assets/icon-deck-api.svg
+      src: /images/icon-deck-api.svg
     }
 ---
 
