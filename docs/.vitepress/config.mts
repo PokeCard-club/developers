@@ -16,8 +16,19 @@ export default defineConfig({
     ],
     sidebar: {
       '/deck-api/': [
-        { text: '[GET] /deck/:code', link: '/deck-api/deck' },
-        { text: '[GET] /cards?=id', link: '/deck-api/cards' },
+        {
+          text: 'API',
+          items: [
+            { text: '[GET] /deck/:code', link: '/deck-api/deck' },
+            { text: '[GET] /cards?=id', link: '/deck-api/cards' },
+          ],
+        },
+        {
+          text: 'Frontend',
+          items: [
+            { text: 'TypeScript', link: '/deck-api/frontend/typescript' },
+          ],
+        },
       ],
       '/news/': [],
     },
