@@ -88,7 +88,7 @@ curl -v -X GET 'https://api.deck.poke-card.club/v1/cards?id=45134'
 | id | `Int` | カードID |
 | imageUrl | `String` | カードの画像 |
 | name | `String` | カード名 |
-| subtypes | `String[]` | `Basic` タネ<br>`Stage 1` 1進化<br>`Stage 2` 2進化<br>`Item` グッズ<br>`Supporter`サポート<br>`Tool` ポケモンのどうぐ<br>`Stadium` スタジアム |
+| subtypes | `String[]` | `Basic` タネ｜基本エネルギー<br>`Stage 1` 1進化<br>`Stage 2` 2進化<br>`Item` グッズ<br>`Supporter`サポート<br>`Tool` ポケモンのどうぐ<br>`Stadium` スタジアム<br>`Special` 特殊エネルギー |
 | supertype | `String` | `Trainer` トレーナーズ<br>`Energy` エネルギー<br>`Pokémon` ポケモン |
 | ability | `Ability` | ポケモン｜特性 |
 | addRule | `String` | ポケモン｜exなどのルール |
@@ -98,7 +98,7 @@ curl -v -X GET 'https://api.deck.poke-card.club/v1/cards?id=45134'
 | resistances | `Resistances` | ポケモン｜抵抗 |
 | retreats | `Retreats` | ポケモン｜にげる |
 | weaknesses | `Weaknesses` | ポケモン｜弱点 |
-| rule | `String[]` | トレーナーズ｜効果 |
+| rule | `String[]` | トレーナーズ｜効果<br>エネルギー｜効果 |
 
 #### Ability
 
